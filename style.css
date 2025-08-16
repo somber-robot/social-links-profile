@@ -1,0 +1,92 @@
+@font-face {
+    font-family: Inter;
+    src: url(./assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+body{
+    margin: 0;
+    box-sizing: border-box;
+    background-color: hsl(0, 0%, 8%);
+    height: 100vh;
+    display: flex;
+    color: hsl(0, 0%, 100%);
+    font-family: Inter;
+    font-weight: 500;
+}
+
+p{
+    margin: 0;
+}
+
+.container{
+    margin: auto;
+    background-color: hsl(0, 0%, 12%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    padding: 2rem;
+    gap: 1.2rem;
+}
+
+.profile-wrapper{
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+}
+
+.profile-img{
+    width: 100%;
+    height: 100%;
+}
+
+.name{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.location{
+    margin-top: -10px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #5296A5;
+}
+
+.description{
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+
+.links{
+    margin-top: 0.3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    text-align: center;
+    width: 17rem;
+}
+
+.links a{
+    text-decoration: none;
+    color: white;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 4px;
+    padding: 0.8rem;
+    font-size: 0.7rem;
+    font-weight: 800;
+}
+
+.links .selected{
+    color: black;
+    background-color: #5296A5;
+}
+
+.links a:active{
+    background-color: aliceblue;
+    color: #5296A5;
+}
